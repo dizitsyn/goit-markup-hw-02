@@ -1,0 +1,61 @@
+/*
+Цветовая палитра:
+черный цвет текста #212121
+серый цвет текста #757575
+белый цвет текста #FFFFFF
+голубой цвет #2196F3
+цвет фона #F5F4FA
+*/
+
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --second-accent-color: #ffffff;
+  --background-color: #f5f4fa;
+  --fotter-link-color: rgba(255, 255, 255, 0.6);
+}
+
+/*Убираем точки у элементов списка  */
+ul {
+  list-style: none;
+}
+
+/* Меняем цвет бекграунда и текста */
+body {
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
+}
+
+/* Красим часть Лого */
+.logo-web {
+  color: var(--accent-color);
+}
+
+/* Меняем цвет ссылок навигации */
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.logo:focus,
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--accent-color);
+}
+
+/* Меняем цвет текста в абзацах */
+.secondary-text {
+  color: var(--secondary-text-color);
+}
+
+/* Меняем цвет текста ссылок в подвале*/
+
+.footer .link {
+  color: var(--fotter-link-color);
+}
+
+.footer .address {
+  color: var(--second-accent-color);
+}
