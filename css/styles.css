@@ -32,8 +32,9 @@ body {
   color: var(--accent-color);
 }
 
-/* Меняем цвет ссылок навигации */
-.site-nav .link {
+/* Меняем цвет ссылок*/
+.site-nav .link,
+.portfolio .link {
   color: var(--primary-text-color);
 }
 
@@ -41,7 +42,9 @@ body {
 .site-nav .link:focus,
 .logo:focus,
 .footer .link:hover,
-.footer .link:focus {
+.footer .link:focus,
+.portfolio .link:hover,
+.portfolio .link:focus {
   color: var(--accent-color);
 }
 
