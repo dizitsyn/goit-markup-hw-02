@@ -71,9 +71,10 @@ body {
   color: var(--accent-color);
 }
 
-/* меняем цвет кнопок филтра */
+/* меняем цвет кнопок */
 .filter .filter-button:hover,
-.filter .filter-button:focus {
+.filter .filter-button:focus,
+.hero .button {
   color: var(--second-accent-color);
   background-color: var(--accent-color);
 }
@@ -92,4 +93,9 @@ body {
 
 .footer .address {
   color: var(--second-accent-color);
+}
+
+/* Меняем шрифт героя и бекграунд */
+.hero {
+  background-color: #212121;
 }
