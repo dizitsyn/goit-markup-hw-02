@@ -25,6 +25,10 @@ ul {
 body {
   background-color: var(--background-color);
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /* Красим часть Лого */
@@ -32,24 +36,51 @@ body {
   color: var(--accent-color);
 }
 
+/* Шрифт лого */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
 /* Меняем цвет ссылок*/
 .site-nav .link,
-.portfolio .link {
+.filter .filter-button,
+.item-link,
+.logo {
   color: var(--primary-text-color);
+}
+
+/* Меняем шрифт в навигации */
+.site-nav .link,
+.site-nav .address {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus,
-.logo:focus,
+.site-nav .address:hover,
+.site-nav .address:focus,
 .footer .link:hover,
-.footer .link:focus,
-.portfolio .link:hover,
-.portfolio .link:focus {
+.footer .link:focus {
   color: var(--accent-color);
 }
 
-/* Меняем цвет текста в абзацах */
-.secondary-text {
+/* меняем цвет кнопок филтра */
+.filter .filter-button:hover,
+.filter .filter-button:focus {
+  color: var(--second-accent-color);
+  background-color: var(--accent-color);
+}
+
+/* Меняем цвет текста в абзацах и почты и телефона*/
+.secondary-text,
+.site-nav .address {
   color: var(--secondary-text-color);
 }
 
